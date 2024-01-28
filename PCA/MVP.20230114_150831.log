@@ -1,0 +1,106 @@
+====================== Welcome to MVP ======================
+      A Memory-efficient, Visualization-enhanced, and       
+             Parallel-accelerated Tool For GWAS             
+                    __  __  __   __  ___                    
+                   |  \/  | \ \ / / | _ \                   
+                   | |\/| |  \ V /  |  _/                   
+                   |_|  |_|   \_/   |_|     Version: 1.0.6  
+  Designed and Maintained by Lilin Yin, Haohao Zhang, and   
+  Xiaolei Liu                                               
+  Contributors: Zhenshuang Tang, Jingya Xu, Dong Yin,       
+  Zhiwu Zhang, Xiaohui Yuan, Mengjin Zhu, Shuhong Zhao,     
+  Xinyun Li                                                 
+  Contact: xiaoleiliu@mail.hzau.edu.cn                      
+============================================================
+Start: 2023-01-14 15:08:31 
+The log has been output to the file: /home/el-sunais/devProjects/data_science/beans_gwas/drought/PCA/MVP.20230114_150831.log 
+Input data has 199 individuals, 31194 markers 
+Analyzed trait: X 
+Number of threads used: 8 
+Deriving relationship matrix successfully 
+Eigen Decomposition on GRM 
+Deriving PCs successfully 
+Number of PCs included in GLM: 5 
+Number of PCs included in MLM: 5 
+Number of PCs included in FarmCPU: 5 
+-------------------------GWAS Start------------------------- 
+General Linear Model (GLM) Start... 
+scanning...
+Genomic inflation factor (lambda): 0.8937 
+Writing results to local file 
+Mixed Linear Model (MLM) Start... 
+Variance components using: BRENT 
+Estimated Vg and Ve: 0.000007 0.100089 
+scanning...
+Genomic inflation factor (lambda): 0.8968 
+Writing results to local file 
+FarmCPU Start... 
+Current loop: 1 out of maximum of 10 
+seqQTN: 
+NULL 
+number of covariates in current loop is: 
+5 
+scanning... 
+Current loop: 2 out of maximum of 10 
+Optimizing Pseudo QTNs... 
+seqQTN: 
+11035 22747 20265 1972 6421 30290 14722 26337 23669 
+number of covariates in current loop is: 
+14 
+scanning... 
+Current loop: 3 out of maximum of 10 
+Optimizing Pseudo QTNs... 
+seqQTN: 
+6421 19741 15734 1936 14722 17909 16741 28430 22747 1972 11035 30290 20265 26337 23669 
+number of covariates in current loop is: 
+20 
+scanning... 
+Current loop: 4 out of maximum of 10 
+Optimizing Pseudo QTNs... 
+seqQTN: 
+6421 17909 14722 22747 7406 8723 1972 14165 28430 11035 15734 1936 19741 20265 16741 26337 23669 30290 
+number of covariates in current loop is: 
+23 
+scanning... 
+Current loop: 5 out of maximum of 10 
+Optimizing Pseudo QTNs... 
+seqQTN: 
+17909 6421 22747 7406 14165 1972 8723 17294 1936 11035 14722 20265 15734 28430 19741 26337 23669 30290 16741 
+number of covariates in current loop is: 
+24 
+scanning... 
+Current loop: 6 out of maximum of 10 
+Optimizing Pseudo QTNs... 
+seqQTN: 
+17909 6421 22747 7406 17294 1936 14165 1972 8723 11035 20265 15734 28430 14722 19741 26337 23669 30290 16741 
+number of covariates in current loop is: 
+24 
+scanning... 
+Genomic inflation factor (lambda): 0.7318 
+Writing results to local file 
+Significant level: 1.60e-06 
+---------------------Visualization Start-------------------- 
+Phenotype distribution Plotting 
+PCA plot2d 
+SNP_Density Plotting 
+Circular_Manhattan Plotting X.GLM 
+Circular_Manhattan Plotting X.MLM 
+Circular_Manhattan Plotting X.FarmCPU 
+Rectangular_Manhattan Plotting X.GLM 
+Rectangular_Manhattan Plotting X.MLM 
+Rectangular_Manhattan Plotting X.FarmCPU 
+Q_Q Plotting X.GLM 
+Q_Q Plotting X.MLM 
+Q_Q Plotting X.FarmCPU 
+Multracks_Rectangular Plotting X.GLM 
+Multracks_Rectangular Plotting X.MLM 
+Multracks_Rectangular Plotting X.FarmCPU 
+Multracks_QQ Plotting X.GLM 
+Multracks_QQ Plotting X.MLM 
+Multracks_QQ Plotting X.FarmCPU 
+Multraits_QQ Plotting X.GLM 
+Multraits_QQ Plotting X.MLM 
+Multraits_QQ Plotting X.FarmCPU 
+Results are stored at Working Directory: /home/el-sunais/devProjects/data_science/beans_gwas/drought/PCA 
+End: 2023-01-14 15:08:53 
+===================== MVP ACCOMPLISHED ===================== 

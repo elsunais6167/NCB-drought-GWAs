@@ -1,0 +1,5 @@
+new("big.matrix.descriptor", description = list(sharedType = "FileBacked", 
+    filename = "mvp.hmp.kin.bin", dirname = "/home/el-sunais/devProjects/data_science/beans_gwas/drought/", 
+    totalRows = 199L, totalCols = 199L, rowOffset = c(0, 199), 
+    colOffset = c(0, 199), nrow = 199, ncol = 199, rowNames = NULL, 
+    colNames = NULL, type = "double", separated = FALSE))
